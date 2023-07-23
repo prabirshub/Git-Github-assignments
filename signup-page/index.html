@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup-box">
+        <h2>Signup</h2>
+        <form>
+          <div class="user-box">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="user-box">
+            <label for="batch">Batch:</label>
+            <select name="batch" id="batch" required>
+              <option value="sigma1">Sigma 1:0</option>
+              <option value="sigma2">Sigma 2:0</option>
+            </select>
+          </div>
+          <div class="user-box">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required />
+          </div>
+          <div class="user-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="user-box">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div class="user-box">
+            <input type="submit" value="Signup" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
